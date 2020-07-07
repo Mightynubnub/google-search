@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+
+<body>
+    <div id="page-container">
+        <div id="top-section">
+            <div>
+                <a id="logo" href="https://www.google.com/"><img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="google logo"></a>
+            </div>
+            <div id="searchborder">
+                <input id="search" type="text" value="build this webpage">
+                <div id="sbtns">
+                    <span id="clear" aria-label="clear">
+                        <svg id="cbtn" focusable="false" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                            <path id="clear" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+                        </svg>
+                    </span>
+                    <span id="margin"></span>
+                    <span id="mic" aria-label="mic">
+                        <svg id="mbtn" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z" fill="#4285f4"></path>
+                            <path d="m11 18.08h2v3.92h-2z" fill="#34a853"></path>
+                            <path d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z" fill="#f4b400"></path>
+                            <path d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z" fill="#ea4335"></path>
+                        </svg>
+                    </span>
+                    <span id="srch">
+                        <svg id="sbtn" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div id="top-end">
+                <a id="e-hover" class="nav-link" href="expand" title="google apps" aria-expanded="false" role="button" tabindex="0">
+                    <svg class="expand" focusable="false" viewBox="0 0 24 24">
+                        <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+                    </svg>
+                </a>
+                <a class="sign-in background border" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dbuild%2Bthis%2Bwebpage">Sign In</a>
+            </div>
+        </div>
+        <div id="underbar">
+            <div id="navstart">
+                <div id="all" class="type">
+                    <span class="this" style="height:16px;width:16px">
+                        <svg focusable="false" viewBox="0 0 24 24">
+                            <path d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8" fill="#34A853"></path>
+                            <path d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6" fill="#EA4335"></path>
+                            <path d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6" fill="#FBBC04"></path>
+                            <path d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59" fill="#4285F4"></path>
+                        </svg>
+                    </span> <a id="allbtn" href="all">All</a>
+                </div>
+                <div id="news" class="type">
+                    <a id="newsbtn" class="dec" href="news">
+                        <span class="this them" style="height:16px;width:16px">
+                            <svg focusable="false" viewBox="0 0 24 24">
+                                <path d="M12 11h6v2h-6v-2zm-6 6h12v-2H6v2zm0-4h4V7H6v6zm16-7.22v12.44c0 1.54-1.34 2.78-3 2.78H5c-1.64 0-3-1.25-3-2.78V5.78C2 4.26 3.36 3 5 3h14c1.64 0 3 1.25 3 2.78zM19.99 12V5.78c0-.42-.46-.78-1-.78H5c-.54 0-1 .36-1 .78v12.44c0 .42.46.78 1 .78h14c.54 0 1-.36 1-.78V12zM12 9h6V7h-6v2"></path>
+                            </svg>
+                        </span>News
+                    </a>
+                </div>
+                <div id="maps" class="type">
+                    <a id="mapsbtn" class="dec" href="maps">
+                        <span class="this them" style="height:16px;width:16px">
+                            <svg focusable="false" viewBox="0 0 16 16">
+                                <path d="M7.503 0c3.09 0 5.502 2.487 5.502 5.427 0 2.337-1.13 3.694-2.26 5.05-.454.528-.906 1.13-1.358 1.734-.452.603-.754 1.508-.98 1.96-.226.452-.377.829-.904.829-.528 0-.678-.377-.905-.83-.226-.451-.527-1.356-.98-1.959-.452-.603-.904-1.206-1.356-1.734C3.132 9.121 2 7.764 2 5.427 2 2.487 4.412 0 7.503 0zm0 1.364c-2.283 0-4.14 1.822-4.14 4.063 0 1.843.86 2.873 1.946 4.177.468.547.942 1.178 1.4 1.79.34.452.596.99.794 1.444.198-.455.453-.992.793-1.445.459-.61.931-1.242 1.413-1.803 1.074-1.29 1.933-2.32 1.933-4.163 0-2.24-1.858-4.063-4.139-4.063zm0 2.734a1.33 1.33 0 11-.001 2.658 1.33 1.33 0 010-2.658"></path>
+                            </svg>
+                        </span>Maps
+                    </a>
+                </div>
+                <div id="videos" class="type">
+                    <a id="videosbtn" class="dec" href="videos">
+                        <span class="this them" style="height:16px;width:16px">
+                            <svg focusable="false" viewBox="0 0 24 24">
+                                <path d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22 4.4v15.1a2.5 2.5 0 0 1-2.5 2.5"></path>
+                            </svg>
+                        </span>Videos
+                    </a>
+                </div>
+                <div id="shopping" class="type">
+                    <a id="shoppingbtn" class="dec" href="shopping">
+                        <span class="this them" style="height:16px;width:16px">
+                            <svg focusable="false" viewBox="0 0 24 24">
+                                <path d="M21.11 2.89A3.02 3.02 0 0 0 18.95 2h-5.8c-.81 0-1.58.31-2.16.89L7.25 6.63 2.9 10.98a3.06 3.06 0 0 0 0 4.32l5.79 5.8a3.05 3.05 0 0 0 4.32.01l8.09-8.1c.58-.58.9-1.34.9-2.16v-5.8c0-.81-.32-1.59-.89-2.16zM20 10.85c0 .28-.12.54-.32.74l-3.73 3.74-4.36 4.36c-.41.41-1.08.41-1.49 0l-2.89-2.9-2.9-2.9a1.06 1.06 0 0 1 0-1.49l8.1-8.1c.2-.2.46-.3.74-.3l5.8-.01A1.05 1.05 0 0 1 20 5.05v5.8zM16 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2"></path>
+                            </svg>
+                        </span>Shopping
+                    </a>
+                </div>
+                <div id="more" class="type space">
+                    <a id="morebtn" class="expand" href="more">
+                        <span class="this sp" style="height:16px;line-height:16px;width:16px">
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
+                            </svg>
+                        </span>More
+                    </a>
+                </div>
+            </div>
+            <div id="navend">
+                <a id="settings" class="n-end" href="settings">Settings</a>
+                <a id="tools" class="n-end" href="tools">Tools</a>
+            </div>
+        </div>
+        <div id="results">
+            <div id="stats">
+                <header>
+                    About 86,300,000 results (0.49 seconds)
+                </header>
+            </div>
+            <div id="s-results">
+                <div class="r-section">
+                    <a class="main" href="https://victor-lf.github.io/google-search-results/">
+                        <div class="small">
+                            <span>victor-lf.github.io<span class="gray"> › google-homepage</span>
+                        </div>
+                        <h3 class="title">build this webpage - GitHub Pages</h3>
+                    </a>
+                    <br>
+                    <span class="info"><strong>build this webpage.</strong>  https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...</span>
+                </div>
+                <div class="r-section">
+                    <a class="main" href="https://christine-27.github.io/google-homepage/">
+                        <div class="small">
+                            <span>christine-27.github.io <span class="gray"> › google-homepage</span></span>
+                        </div>
+                        <h3 class="title">build this webpage - GitHub Pages</h3>
+                    </a>
+                    <br>
+                    <span class="info">With zero coding experience, artist <strong>building</strong> 180 <strong>webpages</strong> in 180 days. hhttps://arstechnica.com/.../with-zero-coding-experience-artist-<strong>building</strong>-180-<strong>webapges</strong>-.</span>
+                </div>
+                <div class="r-section">
+                    <a class="main" href="https://arstechnica.com/information-technology/2013/07/with-zero-coding-experience-artist-building-180-webpages-in-180-days/">
+                        <div class="small">
+                            <span>arstechnica.com <span class="gray"> › information-technology › 2013/07</spand></span>
+                        </div>
+                        <h3 class="title">With zero coding experience, artist building 180 webpages in ...</h3>
+                    </a>
+                    <br>
+                    <span class="info">26 Jul 2013 - One of Jennifer Dewalt's creations, this <strong>webpage</strong> lets visitors create paintings in ... <strong>Build</strong> a different <strong>website</strong> every day for 180 consecutive days</span>
+                </div>
+                <div id="v-header">
+                    <h1>Videos</h1>
+                </div>
+                <div id="vsection">
+                    <div class="panel">
+                        <div id="first" class="v-card">
+                            <a href="https://www.youtube.com/watch?v=YWA-xbsJrVg">
+                                <div class="vbox">
+                                    <div class="playbtn"></div>
+                                    <div class="v-time">12:02</div>
+                                    <img class="v-img" src="https://musabii.github.io/google-homepage/v1.jpeg">
+                                </div>
+                                <div id="link" class="v-link">How to Make a Website in 10 mins - Simple & Easy</div>
+                            </a>
+                            <div class="v-info">
+                                <span class="gray">Website Learners</span><br>
+                                <span>YouTube<span class="gray"> - 3 Jan 2018</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div id="second" class="v-card">
+                            <a href="https://www.youtube.com/watch?v=l3mUE6qj2Qg">
+                                <div class="vbox">
+                                    <div class="playbtn"></div>
+                                    <div class="v-time">4:53</div>
+                                    <img class="v-img" src="https://musabii.github.io/google-homepage/v2.jpeg">
+                                </div>
+                                <div id="link" class="v-link">How To Build a Website Without Code | Everyone Can Build a ...</div>
+                            </a>
+                            <div class="v-info">
+                                <span class="gray">Roberto Blake</span>
+                                <span>YouTube<span class="gray"> - 8 Nov 2016</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div id="third" class="v-card">
+                            <a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-html/v/making-webpages-intro">
+                                <div class="vbox">
+                                    <div class="playbtn"></div>
+                                    <div class="v-time">2:47</div>
+                                    <img class="v-img" src="https://musabii.github.io/google-homepage/v3.jpeg">
+                                </div>
+                                <div id="link" class="v-link">Welcome to the web! (video)</div>
+                            </a>
+                            <div class="v-info">
+                                <span class="gray">Khan Academy Computing</span>
+                                <span>Khan Academy<span class="gray"> - 28 Mar 2020</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="extrabox">
+                    <h2 id="ask">People also ask</h2>
+                    <input class="hide" type="checkbox" id="title1">
+                    <label for="title1">How can I create my own webpage?
+                        <span class="qss">
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                            </svg>
+                        </span>
+                    </label>
+                    <div class="content">
+                        <h2><strong>Follw these 6 simple Steps to create a website today.</strong></h2>
+                        <ol>
+                            <li>Sign up to a free website builder. Choose whate kind of website you want to create.</li>
+                            <li>Customize a template or get a website made for you ...</li>
+                            <li>Drag and drop 100s of design features ...</li>
+                            <li>Get readfor buisness ...</li>
+                            <li>Publish your website and go live ...</li>
+                            <li>Drive traffic to your site.</li>
+                        </ol>
+                        <p>www.wix.com</p>
+                        <a href="https://www.wix.com/">Wix.com: Free Website Builder | Create a Free Website</a>
+                        <p>Search for: <a href="https://www.google.com/search?q=How+can+I+create+my+own+webpage%3F&sa=X&ved=2ahUKEwi0nbCit5rqAhX_URUIHVsHD7oQzmd6BAgLEAk">How can I create my own webpage?</a></p>
+                    </div>
+                    <input class="hide" type="checkbox" id="title2">
+                    <label for="title2">How do I make a greate website?
+                        <span class="qss" id="two">
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                            </svg>
+                        </span>
+                    </label>
+                    <div class="content">
+                        <h2><strong>Belwo are tips for building your first business website.</strong></h2>
+                        <ol>
+                            <li>Have a Clear Goal ...</li>
+                            <li>Write Your Own Content ...</li>
+                            <li>State Your Purpose Clearly and Quickly ...</li>
+                            <li>Tell Customers What You Can Do For Them ...</li>
+                            <li>Utilize Calls to Action ...</li>
+                            <li>Develop a Page Hierarchy</li>
+                            <li>Draw Inspiration</li>
+                            <li>Professional Websites > Personal Accomplishment.</li>
+                        </ol>
+                        <a id="s-link" href="https://smallbiztrends.com/2015/10/building-your-first-business-website.html">More items...</a><span>•20 Oct 2015</span>
+                        <p>smallbiztrends.com > 2015/10 > building-your-first-buisn...</p>
+                        <a href="https://smallbiztrends.com/2015/10/building-your-first-business-website.html">30 Tips for Building Your First Buisness Website - Small Buisness...</a>
+                        <p>Search for:<a href="https://www.google.com/search?q=How+do+I+make+a+great+website%3F&sa=X&ved=2ahUKEwi0nbCit5rqAhX_URUIHVsHD7oQzmd6BAgLEBU">How do I make a great website?</a></p>
+                    </div>
+                    <input class="hide" type="checkbox" id="title3">
+                    <label for="title3">How can I create my own website on Google?
+                        <span class="qss" id="three">
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                            </svg>
+                        </span>
+                    </label>
+                    <div class="content">
+                        <h2><strong>Create a site or change yhour web address</strong></h2>
+                        <ol>
+                            <li>On a compute, open classic Google Sites.</li>
+                            <li>At the top left, click Create. in classic Sites.</li>
+                            <li>Select a template.</li>
+                            <li>Enter a name for your site and a URL</li>
+                            <li>Click Create.</li>
+                        </ol>
+                        <p>support.google.com > sites > answer</p>
+                        <a href="https://support.google.com/sites/answer/98081?hl=en">Create, name, or copy a site - Sites  Help - Google Support</a>
+                        <p>Search for:<a href="https://www.google.com/search?q=How+can+I+create+my+own+website+on+Google%3F&sa=X&ved=2ahUKEwi0nbCit5rqAhX_URUIHVsHD7oQzmd6BAgLEB8">How can I create my own website on Google?</a></p>
+                    </div>
+                </div>
+                <div id="feedback">
+                    <a href="https://www.google.com/search?q=build+this+webpage#" style="text-decoration: none; color: #70757a;">feedback</a>
+                </div>
+                <div class="r-section">
+                    <a class="main" href="https://www.websitebuilderexpert.com/building-websites/">
+                        <div class="small">
+                            <span>www.websitebuilderexper.com<span class="gray"> › building-websites</span>
+                        </div>
+                        <h3 class="title">How to Build a Website 2020 | The Complete Beginner's Guide</h3>
+                    </a>
+                    <br>
+                    <span class="info">5 Jun 2020 - How to <strong>Build</strong> a <strong>Website</strong>: the Step-by-Step Guide to Easy Setup. We'll look at how to make a website with both a website builder and WordPress, ...</span>
+                </div>
+                <div class="r-section">
+                    <a class="main" href="https://www.pcmag.com/news/how-to-create-a-website">
+                        <div class="small">
+                            <span>www.pcmag.com<span class="gray"> › ... › Web Hosting</span>
+                        </div>
+                        <h3 class="title">How To Create a Website | PCMag</h3>
+                    </a>
+                    <br>
+                    <span class="info">If you need to quickly <strong>build</strong> a simple <strong>website</strong>, starting with a blogging service is a great way to go. The major player in the blog game is WordPress, a content ...</span>
+                </div>
+                <div class="r-section">
+                    <a class="main" href="https://www.buildthis.io/make-a-website/">
+                        <div class="small">
+                            <span>www.buildthis.io<span class="gray"> › make-a-website</span>
+                        </div>
+                        <h3 class="title">How to Build A Website: A-to-Z Beginner Guide - BuildThis.io</h3>
+                    </a>
+                    <br>
+                    <span class="info">21 Apr 2020 - In this article, I will show you the essential steps in <strong>creating</strong> a <strong>website</strong>. Register a domain name; Signup for a web hosting; Design your ...</span>
+                </div>
+                <div class=r-section>
+                    <a class="main" href="https://www.webnode.co.uk/">
+                        <div class="small">
+                            <span>www.webnode.co.uk</span>
+                        </div>
+                        <h3 class="title">Webnode: Create a free website easily | Free website builder</h3>
+                    </a>
+                    <br>
+                    <span class="info">By registering and <stong>creating</stong> your <strong>website</strong> you agree to our Terms and conditions and the Privacy Policy. Wait please... CLOSE. The name will be used for ...</span>
+                </div>
+                <div class="r-section">
+                    <a class="main" href="https://www.squarespace.com/">
+                        <div class="small">
+                            <span>www.squarespace.com</span>
+                        </div>
+                        <h3 class="title">Squarespace: Build a Website – Website Builder</h3>
+                    </a>
+                    <br>
+                    <span class="info">Squarespace is the all-in-one solution for anyone looking to create a beautiful <strong>website</strong>. Domains, eCommerce, hosting, galleries, analytics, and 24/7 support all ..</span>
+                </div>
+                <div class="r-section">
+                    <a class="main" href="https://www.google.com/business/website-builder/">
+                        <div class="small">
+                            <span>www.google.com<span class="gray"> › business › website-builder</span>
+                        </div>
+                        <h3 class="title">Free Website Builder For Your Business - Google My Business</h3>
+                    </a>
+                    <span class="info">Well organized and easy to understand Web <strong>Building</strong> tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java ...</span>
+                </div>
+                <div id="extra-h">
+                    <h4>Searches related to build this webpage</h4>
+                </div>
+                <div id="extra">
+                    <div class="exres">
+                        <a href="https://www.google.com/search?q=website&sa=X&ved=2ahUKEwjz75aWhbvqAhWaVBUIHbyJAEEQ1QIoAHoECAwQAQ">
+                            <span>
+                                <svg class="soi" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                </svg>
+                            </span>
+                            <b>website</b>
+                        </a>
+                    </div>
+                    <div class="exres">
+                        <a href="https://www.google.com/search?q=create+professional+website&sa=X&ved=2ahUKEwjz75aWhbvqAhWaVBUIHbyJAEEQ1QIoAXoECAwQAg">
+                            <span>
+                                <svg class="soi" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                </svg>
+                            </span>
+                            <b>create professional website</b>
+                        </a>
+                    </div>
+                    <div class="exres">
+                        <a href="https://www.google.com/search?q=how+to+build+a+website+from+scratch&sa=X&ved=2ahUKEwjz75aWhbvqAhWaVBUIHbyJAEEQ1QIoAnoECAwQAw">
+                            <span>
+                                <svg class="soi" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                </svg>
+                            </span>
+                            <b>how to</b> build <b>a website from scratch</b>
+                        </a>
+                    </div>
+                    <div class="exres">
+                        <a href="https://musabii.github.io/google-homepage/hmdfgdfm">
+                            <span>
+                                <svg class="soi" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                </svg>
+                            </span> build <b>a website free</b>
+                        </a>
+                    </div>
+                    <div class="exres">
+                        <a href="https://musabii.github.io/google-homepage/hmdfgdfgm">
+                            <span>
+                                <svg class="soi" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                </svg>
+                            </span>
+                            <b>github</b>
+                        </a>
+                    </div>
+                    <div class="exres">
+                        <a href="https://musabii.github.io/google-homepage/hmbcvbm">
+                            <span>
+                                <svg class="soi" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                </svg>
+                            </span>
+                            <b>the odin project</b>
+                        </a>
+                    </div>
+                    <div class="exres">
+                        <a href="https://musabii.github.io/google-homepage/hmjghjm">
+                            <span>
+                                <svg class="soi" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                </svg>
+                            </span>
+                            <b>how to create a website free of cost</b>
+                        </a>
+                    </div>
+                    <div class="exres">
+                        <a href="https://musabii.github.io/google-homepage/hmtretm">
+                            <span>
+                                <svg class="soi" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                </svg>
+                            </span>
+                            <b>creating a website for your business</b>
+                        </a>
+                    </div>
+                    <div class="exres">
+                        <a href="https://musabii.github.io/google-homepage/hmwedqam">
+                            <span>
+                                <svg class="soi" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                </svg>
+                            </span>
+                            <b>project on web desgin</b>
+                        </a>
+                    </div>
+                    <div class="exres">
+                        <a href="https://musabii.github.io/google-homepage/hasdasdmm">
+                            <span>
+                                <svg class="soi" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                </svg>
+                            </span>
+                            <b>website building software</b>
+                        </a>
+                    </div>
+                    <div class="exres">
+                        <a href="https://musabii.github.io/google-homepage/hxfcvdsvmm">
+                            <span>
+                                <svg class="soi" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                </svg>
+                            </span>
+                            <b>web project</b>
+                        </a>
+                    </div>
+                    <div class="exres">
+                        <a href="https://musabii.github.io/google-homepage/hjghjmm">
+                            <span>
+                                <svg class="soi" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                </svg>
+                            </span>
+                            <b>web design projects</b>
+                        </a>
+                    </div>
+                </div>
+                <div id="nextpage">
+                    <table id="tbl">
+                        <tbody>
+                            <tr>
+                                <td id="t1">
+                                    <span class="tsc" style="background:url(https://musabii.github.io/google-homepage/newlogo.webp) no-repeat;background-position: -24px 0;width: 28px;padding-bottom: 12px;"></span>
+                                </td>
+                                <td id="t2">
+                                    <span class="tsc" style="background:url(https://musabii.github.io/google-homepage/newlogo.webp) no-repeat;background-position: -53px 0;width: 20px;"></span> 1
+                                </td>
+                                <td>
+                                    <a aria-label="page 2" class="fl" href="https://www.google.com/search?q=build+this+webpage&ei=Q0nzXsBmmaTV8A-SjbWgAg&start=10&sa=N&ved=2ahUKEwiAlIuFvJrqAhUZUhUIHZJGDSQQ8tMDegQIDBA0">
+                                        <span class="tsc" style="background:url(https://musabii.github.io/google-homepage/newlogo.webp) no-repeat;background-position:-74px 0;width:20px;"></span> 2
+                                    </a>
+                                </td>
+                                <td>
+                                    <a aria-label="page 3" class="fl" href="https://www.google.com/search?q=build+this+webpage&ei=Q0nzXsBmmaTV8A-SjbWgAg&start=20&sa=N&ved=2ahUKEwiAlIuFvJrqAhUZUhUIHZJGDSQQ8tMDegQIDBA2">
+                                        <span class="tsc" style="background:url(https://musabii.github.io/google-homepage/newlogo.webp) no-repeat;background-position:-74px 0;width:20px;"></span> 3
+                                    </a>
+                                </td>
+                                <td>
+                                    <a aria-label="page 4" class="fl" href="https://www.google.com/search?q=build+this+webpage&ei=Q0nzXsBmmaTV8A-SjbWgAg&start=30&sa=N&ved=2ahUKEwiAlIuFvJrqAhUZUhUIHZJGDSQQ8tMDegQIDBA4">
+                                        <span class="tsc" style="background:url(https://musabii.github.io/google-homepage/newlogo.webp) no-repeat;background-position:-74px 0;width:20px;"></span> 4
+                                    </a>
+                                </td>
+                                <td>
+                                    <a aria-label="page 5" class="fl" href="5">
+                                        <span class="tsc" style="background:url(https://musabii.github.io/google-homepage/newlogo.webp) no-repeat;background-position:-74px 0;width:20px;"></span> 5
+                                    </a>
+                                </td>
+                                <td>
+                                    <a aria-label="page 6" class="fl" href="6">
+                                        <span class="tsc" style="background:url(https://musabii.github.io/google-homepage/newlogo.webp) no-repeat;background-position:-74px 0;width:20px;"></span> 6
+                                    </a>
+                                </td>
+                                <td>
+                                    <a aria-label="page 7 " class="fl" href="7">
+                                        <span class="tsc" style="background:url(https://musabii.github.io/google-homepage/newlogo.webp) no-repeat;background-position:-74px 0;width:20px;"></span> 7
+                                    </a>
+                                </td>
+                                <td>
+                                    <a aria-label="page 8" class="fl" href="8">
+                                        <span class="tsc" style="background:url(https://musabii.github.io/google-homepage/newlogo.webp) no-repeat;background-position:-74px 0;width:20px;"></span> 8
+                                    </a>
+                                </td>
+                                <td>
+                                    <a aria-label="page 9" class="fl" href="9">
+                                        <span class="tsc" style="background:url(https://musabii.github.io/google-homepage/newlogo.webp) no-repeat;background-position:-74px 0;width:20px;"></span> 9
+                                    </a>
+                                </td>
+                                <td>
+                                    <a aria-label="page 10" class="fl" href="10">
+                                        <span class="tsc" style="background:url(https://musabii.github.io/google-homepage/newlogo.webp) no-repeat;background-position:-74px 0;width:20px;"></span> 10
+                                    </a>
+                                </td>
+                                <td aria-level="3" role="heading">
+                                    <a class="next-end" href="" id="pnnext" style="text-align: left;">
+                                        <span class="tsc" style="background:url(https://musabii.github.io/google-homepage/newlogo.webp) no-repeat;background-position:-96px 0;width:71px;"></span>
+                                        <span style="display:block;margin-left:53px">Next</span>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="footer-t">
+                <span class="fbar" id="location">United Kingdom</span>
+                <div id="break">
+                    <span id="dot"></span>
+                    <span class="fbar" id="precise">CF63, Barry <span class="gray" id="fl">- From your Internet address - <a href="https://www.google.com/search?q=build+this+webpage#">Use precise location</a> - <a href="https://support.google.com/websearch?p=ws_settings_location&hl=en-GB">Learn more</a></span></span>
+                </div>
+            </div>
+            <div id="footer-b">
+                <span id="b-links">
+                    <a class="fend" href="https://support.google.com/websearch/?p=ws_results_help&hl=en-GB&fg=1">Help</a>
+                    <a class="fend" href="https://www.google.com/search?q=build+this+webpage#">Send feedback</a>
+                    <a class="fend" href="https://policies.google.com/privacy?fg=1">Privacy</a>
+                    <a class="fend" href="https://policies.google.com/terms?fg=1">Terms</a>
+                </span>
+            </div>
+    </div>
+</body>
+
+</html>
